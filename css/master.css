@@ -1,0 +1,41 @@
+${
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  #slider {
+      position: relative;
+      height: 200px;
+      width: 700px;
+      margin: auto;
+  }
+  #slider ul li {
+      position: absolute;
+      top: 0;
+      left: 0;
+  }
+  #btn1, #btn2{
+    all: unset;
+    font-size: 40px;
+    text-align: center;
+    position: absolute;
+    top: 80px;
+    z-index: 1;
+    color: gray;
+    background-color: white;
+  }
+  #btn1, #btn2 :hover{
+    cursor: pointer;
+  }
+  #btn1{
+    left: 0;
+    &:hover {
+      color: white;
+    }
+  }
+  #btn2{
+    right: 0;
+    &:hover {
+      color: white;
+    }
+  }
